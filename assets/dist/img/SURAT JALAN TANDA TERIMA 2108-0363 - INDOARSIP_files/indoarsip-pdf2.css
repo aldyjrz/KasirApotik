@@ -1,0 +1,66 @@
+body {
+    margin-left: 5px
+}
+
+table.main-table {
+    border-bottom: 1px solid #000;
+    border-collapse: collapse;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    margin-bottom: -5px;
+    margin-top: .5em;
+    width: 765px;
+    font-size: 10px;
+    font-family: helvetica
+}
+
+td.main-td {
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000
+}
+
+td.border-bottom-only {
+    border-bottom: 1px solid #000
+}
+
+font.big {
+    font-size: 10px
+}
+
+font.big10 {
+    font-size: 9px
+}
+
+font.bold {
+    font-weight: 700
+}
+
+font.size-kecil {
+    font-size: 6px
+}
+
+#container {
+    height: 100px;
+    width: 100;
+    position: relative;
+}
+
+#stempel {
+    z-index: 0;
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    left: 80px;
+}
+
+#ttd {
+    z-index: 1;
+    position: absolute;
+    left: 65px;
+    top: 20px;
+    height: 80px;
+    width: 80px;
+}
